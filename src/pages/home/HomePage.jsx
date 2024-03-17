@@ -57,7 +57,7 @@ function HomePage() {
 
   const OnSearch = (word) => {
     if (word.trim() !== "") {
-      const filteredIPs = allIPs.filter((ipData) => ipData.ip.includes(word));
+      const filteredIPs = data.filter((ipData) => ipData.ip.includes(word));
       setAllIPs(filteredIPs);
     } else {
       setAllIPs(data);
