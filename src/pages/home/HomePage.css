@@ -12,4 +12,12 @@
   outline: none;
   border: none;
   padding: 5px 10px;
+  background: #3a3535;
+  border-bottom: 2px groove #9f9f9f;
+  color: #efef;
+  letter-spacing: 0.1rem;
+}
+
+.home-page button {
+  background: #3b6172;
 }

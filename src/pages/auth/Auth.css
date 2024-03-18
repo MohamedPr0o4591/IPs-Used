@@ -27,9 +27,12 @@
   border-radius: 0.6rem;
   padding: 10px 20px;
   outline: none;
-  color: #333;
+  color: #efef;
   letter-spacing: 0.1rem;
   margin-top: 2rem;
+  background: #3a3535;
+  border: sienna;
+  border-bottom: 2px groove #9f9f9f;
 }
 
 .login-page .input-box input::placeholder {
@@ -38,17 +41,17 @@
 
 .login-page input[type="submit"] {
   border-radius: 0.4rem;
-  background: #240052;
+  background: #3b6172;
   border: none;
   outline: none;
   color: #efef;
-  padding: 0px 20px;
-  box-shadow: 0 0.1rem 0.4rem rgba(255, 255, 255, 0.2);
+  padding: 5px 20px;
   transition: all 0.228s ease;
-  font-size: 1.45rem;
+  font-size: 1.3rem;
 }
 
 .login-page input[type="submit"]:hover,
 .login-page input[type="submit"]:active {
-  color: tomato;
+  box-shadow: 0 0.1rem 0.4rem rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
 }

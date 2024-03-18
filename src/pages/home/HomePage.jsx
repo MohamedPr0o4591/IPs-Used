@@ -68,7 +68,7 @@ function HomePage() {
     <div className="home-page">
       <Container>
         {localStorage.login === "TCL" ? (
-          <Stack gap={2} className="border-bottom">
+          <Stack gap={2}>
             <Stack direction={"row"} gap={2} alignItems={"center"}>
               <input
                 type="text"
